@@ -13,7 +13,7 @@ var bs58check = require('bs58check');
 var mnemonic = require('../code/generateMnenomic.js');
 var loadmin = require('../bitcoinjs.min.js');
 var bitcoin = require('bitcoinjs-lib');
-// var bitcoin = require('../node_modules/bitcoin-lib/src/index.js');
+
 
 
 async function genSegWitAddr() {
