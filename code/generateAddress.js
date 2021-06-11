@@ -12,8 +12,8 @@ var btcLib = require('bitcoinjs-lib');
 var bs58check = require('bs58check');
 var mnemonic = require('../code/generateMnenomic.js');
 var loadmin = require('../bitcoinjs.min.js');
-// var bitcoin = require('bitcoinjs-lib');
-var bitcoin = require('../node_modules/bitcoin-lib/src/index.js');
+var bitcoin = require('bitcoinjs-lib');
+// var bitcoin = require('../node_modules/bitcoin-lib/src/index.js');
 
 
 async function genSegWitAddr() {
@@ -36,6 +36,8 @@ async function genSegWitAddr() {
 	step4.writeUInt8(0x00, 0);
 	step3.copy(step4, 1); //step4 now holds the extended RIPMD-160 result
 
+	const step9 = bs58check.encode(step4);
+	console.log('Base58Check: ' + step9);
 	return step9;
 	
 }
