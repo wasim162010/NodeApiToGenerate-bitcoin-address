@@ -17,8 +17,6 @@ app.listen(8081);
 app.get('/v1/get/mnemonic', function(req, res) {
 
     mnemonic.generateMnemonic();
-    //res.send(mnemonic.generateMnemonic());
-
     res.send(JSON.stringify({"mnemonic":mnemonic.generateMnemonic()}));
 
 });
@@ -29,7 +27,6 @@ app.get('/v1/get/address/segwit', async(req, res) => {
     console.log('segwit');
     var _addr = await address.genSegWitAddr();
     console.log(_addr);
-  //  res.send(_addr);
     res.send(JSON.stringify({"address":_addr}));
 
   });  
@@ -39,7 +36,6 @@ app.get('/v1/get/address/p2sh', async(req, res) => {
     console.log('segwit');
     var _addr = await address.genP2SH();
     console.log(_addr);
-   // res.send(outp);
    res.send(JSON.stringify({"address":_addr}));
 
   }); 
@@ -52,8 +48,6 @@ app.get('/v1/get/address/validate', async(req, res) => {
     console.log('validate address');
     var isValidAddr = await validate.validateAddress(param.address);
     console.log(isValidAddr);
-   // res.send(outp);
-    ///res.json(outp);
     res.send(JSON.stringify({"isValid":isValidAddr}));
 
   }); 
@@ -65,7 +59,6 @@ app.get('/v1/get/address/info', async(req, res) => {
     console.log('address info');
     var info = await validate.addressInfo(param.address);
     console.log(info);
-  //  res.send(outp);
     res.send(JSON.stringify({"info":info}));
 
   }); 

@@ -6,4 +6,3 @@ function generateMnemonic() {
 }
 
 exports.generateMnemonic = generateMnemonic;
-//console.log(generateMnemonic());
