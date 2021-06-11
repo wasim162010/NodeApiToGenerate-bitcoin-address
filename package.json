@@ -1,0 +1,39 @@
+{
+  "name": "CryptoDotcomAssignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasim162010/CryptoDotcomAssignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasim162010/CryptoDotcomAssignment/issues"
+  },
+  "homepage": "https://github.com/wasim162010/CryptoDotcomAssignment#readme",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "bitcoin-address-validation": "^2.1.0",
+    "bitcoinjs-lib": "^5.2.0",
+    "body-parser": "^1.19.0",
+    "browserify": "^17.0.0",
+    "bs58check": "^2.1.2",
+    "create-hash": "^1.2.0",
+    "express": "^4.17.1",
+    "hdkey": "^2.0.1",
+    "uglify-js": "^3.13.9"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "request": "^2.88.2"
+  }
+}

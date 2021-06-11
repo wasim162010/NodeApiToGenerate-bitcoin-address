@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "bitcoin-address-validation": "^2.1.0",
+    "bitcoinjs-lib": "^5.2.0",
+    "bs58check": "^2.1.2",
+    "create-hash": "^1.2.0",
+    "express": "^4.17.1",
+    "hdkey": "^2.0.1"
+  }
+}
