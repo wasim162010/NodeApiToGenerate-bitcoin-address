@@ -12,3 +12,5 @@
 # npm install express --save
 # npm install express --save
 # npm install body-parser --save
+
+# to run test case, go to 'test' folder and run 'npm test'
