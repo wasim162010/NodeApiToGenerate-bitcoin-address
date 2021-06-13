@@ -1,10 +1,3 @@
-//npm install bip39 --save
-//npm install hdkey --save
-//npm install create-hash --save
-//npm install bitcoinjs-lib --save
-//npm install bs58check --save
-
-
 var bip39 = require('bip39');
 var hdkey = require('hdkey');
 var createHash = require('create-hash');
