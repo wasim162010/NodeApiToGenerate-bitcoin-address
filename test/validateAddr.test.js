@@ -1,4 +1,4 @@
-//npm install bitcoin-address-validation --save
+
 var mnemonic = require('../code/generateMnenomic.js');
 var address = require('../code/generateAddress.js');
 const assert = require('assert').strict;
