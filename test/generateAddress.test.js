@@ -48,6 +48,7 @@ describe("check address generation", function() {
 		});
 	
 		assert.strictEqual(address, '36NUkt6FWUi3LAWBqWRdDmdTWbt91Yvfu7');
+		
 	  });
 
 });

@@ -5,7 +5,8 @@ var btcLib = require('bitcoinjs-lib');
 var bs58check = require('bs58check');
 var mnemonic = require('../code/generateMnenomic.js');
 var loadmin = require('../bitcoinjs.min.js');
-var bitcoin = require('bitcoinjs-lib');
+var bitcoin = ("bitcoinjs-lib");
+var bitcoin = require("bitcoinjs-lib");
 
 
 
