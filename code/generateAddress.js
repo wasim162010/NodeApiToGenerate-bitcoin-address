@@ -18,7 +18,7 @@ var bitcoin = require('bitcoinjs-lib');
 
 async function genSegWitAddr() {
 
-	const mnemonics = mnemonic.generateMnemonic(); //bip39.generateMnemonic(); //generates string
+	const mnemonics = mnemonic.generateMnemonic();  //generates string
     const seed = await bip39.mnemonicToSeed(mnemonics);
     const root = hdkey.fromMasterSeed(seed);
 
