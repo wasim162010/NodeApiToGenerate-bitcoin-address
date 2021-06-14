@@ -9,7 +9,7 @@ var bitcoin = ("bitcoinjs-lib");
 var bitcoin = require("bitcoinjs-lib");
 
 
-
+//Below method is used to generate the Hierarchical Deterministic (HD) Segregated Witness (SegWit) bitcoin address 
 async function genSegWitAddr() {
 
 	const mnemonics = mnemonic.generateMnemonic();  //generates string
@@ -36,7 +36,7 @@ async function genSegWitAddr() {
 	
 }
 
-
+//Below method is used to generate an n-out-of-m Multisignature (multi-sig) Pay-To-Script-Hash (P2SH) bitcoin address
 async function genP2SH() { 
 
 	var privKeys = [bitcoin.ECKey.makeRandom(), bitcoin.ECKey.makeRandom(), bitcoin.ECKey.makeRandom()]
