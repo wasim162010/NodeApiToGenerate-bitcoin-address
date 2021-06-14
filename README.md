@@ -3,14 +3,13 @@
 
 # Packages used :
 
-# Different packages were used to create thie api
-# npm install bip39 --save
-# npm install hdkey --save
-# npm install create-hash --save
-# npm install bitcoinjs-lib --save
-# npm install bs58check --save
-# npm install express --save
-# npm install express --save
-# npm install body-parser --save
+# Different node packages were used to write the code for address generation, validation and to create api
+# bip39
+# hdkey 
+# reate-hash 
+# bitcoinjs-lib 
+# bs58check 
+# express 
+# body-parser 
 
 # to run test case, go to 'test' folder and run 'npm test'

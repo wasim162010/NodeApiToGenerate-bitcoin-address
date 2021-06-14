@@ -7,6 +7,7 @@ var bitcoin = require('bitcoinjs-lib');
 
 describe("check address generation", function() {
  
+
 	it('should generate an SegWit address', async () => {
 	
 		const mnemonics = "kangaroo embark unveil guard common load cluster polar delay brand broccoli heavy" ;
